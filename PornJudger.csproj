@@ -2,6 +2,9 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>37c5932a-fd25-47cb-b472-c1f81c055190</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +17,8 @@
     <PackageReference Include="Microsoft.Extensions.ML" Version="1.5.2" />
 
     <PackageReference Include="Microsoft.ML.Vision" Version="1.5.0" />
+
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.14" />
 
 
     <PackageReference Include="NSwag.AspNetCore" Version="13.6.2" />
